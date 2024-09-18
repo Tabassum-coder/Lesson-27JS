@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+</head>
+<body>
+    <h2>JS mapping</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        var num=[12,3,5,8]
+        document.getElementById("p1").innerHTML=num;
+        function myfunction(x){
+            return x*2;
+        }
+        var map_array=num.map(myfunction);
+        document.getElementById("p2").innerHTML="Mapped array is "+map_array;
+    </script>
+</body>
+
+</html>
